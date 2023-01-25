@@ -1,0 +1,29 @@
+{
+  "name": "vitest-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node dist/server.js",
+    "dev": "tsx watch src/server.ts",
+    "test": "vitest",
+    "test:coverage": "vitest run --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joalisonpereira/vitest-example.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/joalisonpereira/vitest-example/issues"
+  },
+  "homepage": "https://github.com/joalisonpereira/vitest-example#readme",
+  "devDependencies": {
+    "@vitest/coverage-c8": "^0.28.2",
+    "tsx": "^3.12.2",
+    "typescript": "^4.9.4",
+    "vitest": "^0.28.2"
+  }
+}

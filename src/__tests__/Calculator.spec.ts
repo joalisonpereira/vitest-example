@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { Calculator } from "../Calculator";
+import { Calculator } from "src/Calculator";
 
 describe("Calculator", () => {
   it("should sum two numbers", () => {

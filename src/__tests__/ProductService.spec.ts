@@ -1,5 +1,5 @@
 import { describe, expect, it, vi } from "vitest";
-import { api, ProductService } from "../ProductService";
+import { api, ProductService } from "src/ProductService";
 
 describe("ProductService", () => {
   it("should fetch products", async () => {
